@@ -1,0 +1,64 @@
+#grid-container{
+    border: 1px solid black;
+    display: grid;
+    grid-template-rows: 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+     text-align: center;
+     gap: 5px;
+}
+.grid-item{
+    border:  1px solid black;
+   border-radius: 20px;
+   background-image:url(../../image/tiger.jpg);
+   background-repeat: repeat;
+   background-size: cover;
+ 
+}
+#griditem1{
+    background-color: yellow;
+}
+#griditem2{
+    background-color:blue;
+}
+#griditem3{
+    background-color: violet;
+}
+#griditem4{
+    background-color: yellow;
+}
+#griditem5{
+    background-color: pink;
+
+}
+#griditem6{
+    grid-column: 2/4;
+    grid-row: 2/4;
+}
+
+#griditem7{
+   grid-column: 4/4;
+   background-color: brown;
+}
+
+#griditem8{
+background-color: coral;
+}
+#griditem9{
+    grid-column: 4/4;
+    background-color: darkblue;
+}
+#griditem10{
+    background-color: cadetblue;
+}
+#griditem11{
+    background-color: chocolate;
+}
+#griditem12{
+    background-color: chartreuse;
+}
+#griditem13{
+    background-color:green;
+}
+
+
+
